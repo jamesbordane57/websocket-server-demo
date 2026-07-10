@@ -1,0 +1,15 @@
+{
+  "name": "minimal-websocket-server",
+  "version": "1.0.0",
+  "description": "A minimal WebSocket server in Node.js (with ws) — broadcast and rooms — plus a tiny browser chat client. Companion code for the tutorial 'WebSocket Server: How to Build One in Node.js — and When to Use a Managed One'.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "rooms": "node rooms-server.js",
+    "serve": "npx serve ."
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
