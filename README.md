@@ -32,6 +32,14 @@ python server.py
 
 Then open `index.html` in two browser tabs (from `file://` is fine, or `npm run serve`). Type in one tab; the other receives it. Open a third tab to watch presence events.
 
+## Run the managed twin (no server)
+
+**`metered-chat.html`** is the same chat app as a client of [Metered Realtime Messaging](https://www.metered.ca/docs/realtime-messaging/) — there is no server file at all.
+
+1. Get a free publishable key (no card) from the link above.
+2. Replace `pk_live_YOUR_KEY` in `metered-chat.html` with your key.
+3. Serve the folder (`npm run serve` or any static server) and open the page in two tabs.
+
 ## The JSON protocol (rooms-server.js)
 
 Client → server: `{ "type": "join", "room": "lobby" }`, `{ "type": "message", "data": "…" }`
