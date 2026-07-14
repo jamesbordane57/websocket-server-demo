@@ -2,7 +2,7 @@
 
 Companion code for the tutorial **"WebSocket Server: How to Build One in Node.js — and When to Use a Managed One."**
 
-📖 **Full tutorial:** &lt;article-url-pending&gt;
+📖 **Full tutorial:** [WebSocket Server: How to Build One in Node.js — and When to Use a Managed One](https://dev.to/alakkadshaw/websocket-server-how-to-build-one-in-nodejs-and-when-to-use-a-managed-one-48c4)
 
 Servers, from simplest to slightly-less-simple:
 
